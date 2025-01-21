@@ -44,7 +44,7 @@ Ensure you have the following installed:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ogbuanu/mobi-interview-backend.git
-   cd reward-system-api
+   cd mobi-interview-backend
    ```
 
 <p align="center">
