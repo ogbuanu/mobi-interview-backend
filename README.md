@@ -1,3 +1,52 @@
+Reward System API
+
+The **Reward System API** is a blockchain-integrated application designed to manage a user reward system. It provides functionality for users to earn, redeem, and track rewards, as well as fetch real-time token prices and transaction history using blockchain and subgraph queries.
+
+---
+
+## Features
+
+- **Earn and Redeem Rewards**: Users can earn or redeem reward points via blockchain-based contracts.
+- **User Balance Query**: Fetch users' reward balances.
+- **Transaction History**: Retrieve user transaction data via TheGraph subgraph service.
+- **Token Price Fetching**: Get real-time token prices from CoinGecko.
+
+---
+
+## Technologies
+
+The project is built using:
+
+- **NestJS**: Backend framework.
+- **Ethers.js**: For interacting with Ethereum-based smart contracts.
+- **GraphQL**: For querying subgraph services.
+- **CoinGecko API**: For fetching token prices.
+- **Jest**: For unit testing.
+
+---
+
+## Getting Started
+
+Follow the steps below to set up the project locally.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (>= 16.x)
+- **npm** or **yarn**
+- **Docker** (Optional, for database or service containerization)
+
+---
+
+### Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ogbuanu/mobi-interview-backend.git
+   cd reward-system-api
+   ```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -72,51 +121,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-# Reward System API
-
-The **Reward System API** is a blockchain-integrated application designed to manage a user reward system. It provides functionality for users to earn, redeem, and track rewards, as well as fetch real-time token prices and transaction history using blockchain and subgraph queries.
-
----
-
-## Features
-
-- **Earn and Redeem Rewards**: Users can earn or redeem reward points via blockchain-based contracts.
-- **User Balance Query**: Fetch users' reward balances.
-- **Transaction History**: Retrieve user transaction data via TheGraph subgraph service.
-- **Token Price Fetching**: Get real-time token prices from CoinGecko.
-
----
-
-## Technologies
-
-The project is built using:
-
-- **NestJS**: Backend framework.
-- **Ethers.js**: For interacting with Ethereum-based smart contracts.
-- **GraphQL**: For querying subgraph services.
-- **CoinGecko API**: For fetching token prices.
-- **Jest**: For unit testing.
-
----
-
-## Getting Started
-
-Follow the steps below to set up the project locally.
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-- **Node.js** (>= 16.x)
-- **npm** or **yarn**
-- **Docker** (Optional, for database or service containerization)
-
----
-
-### Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ogbuanu/mobi-interview-backend.git
-   cd reward-system-api
-   ```
+#
